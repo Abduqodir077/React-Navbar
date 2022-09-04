@@ -5,19 +5,6 @@ import "./Style.css";
 
 function App() {
 
-    // const [malumot, setMalumot] = useState("hello");
-    // const handleFunc = () =>{
-    //     setMalumot("salom")
-    //     console.log(malumot);
-    // }
-
-    // const [malumot, setMalumot] = useState(true);
-    // const [data, setData] = useState([
-    //     {
-    //         name
-    //     }
-    // ])
-
     const [malumot, setMalumot] = useState(true);
     const handleFunc = () => {
         setMalumot(!malumot)
@@ -46,19 +33,6 @@ function App() {
 
             <Section_1/>
             <Section_2/>
-
-
-
-            {/* <button onClick={handleFunc} className={malumot ? "btn1" : "btn2"}>modal</button> */}
-
-
-            {/* <div className={malumot ? "div1" : "div1 active"}>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quis beatae quae, vero distinctio sunt aspernatur, asperiores omnis debitis ea voluptates nulla eligendi labore nobis! Modi laudantium accusamus quisquam est.</p>
-            </div> */}
-
-
-
-            {/* <Nav malumot={data} malumot2={m} /> */}
 
 
         </>
